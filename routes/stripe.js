@@ -1,4 +1,6 @@
+// @ts-check
 const router = require("express").Router();
+// @ts-ignore
 const stripe = require("stripe")(process.env.STRIPE_KEY);
 
 router.post("/payment", (req, res) => {

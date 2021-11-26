@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "include": [
+        "src"
+
+    ],
+    "$schema": [
+        {
+            "file": "./tsconfig.json",
+            "ref": "../../tsconfig.json"
+        }
+    ],
+    "references": [
+        {
+            "path": "../../tsconfig.json"
+        }
+    ],
+    "files": [
+        "src/index.ts"
+    ],
+    "compileOnSave": false,
+    "compileOnSaveEmit": false,
+    "compileOnSaveDefinitions": false,
+    "compileOnSaveDeclaration": false
+}
